@@ -32,7 +32,7 @@ function handleSuccess(evt) {
     }
 
     const data = JSON.parse(evt.target.responseText);
-    console.log(data);
+   //пше console.log(data);
     // TODO: work with data
 
     messageEl.textContent = 'Успешно отправлено! Наш менеджер перезвонит в течение 15 минут.';
